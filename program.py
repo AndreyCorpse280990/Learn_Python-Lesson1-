@@ -1,1 +1,2 @@
-program.py
+
+print(22)
