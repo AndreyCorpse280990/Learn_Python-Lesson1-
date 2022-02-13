@@ -22,7 +22,8 @@ dictionary = {"city": "Москва", "temperature": "20"}
 # Выведите на экран значение ключа city
 print(dictionary['city'])
 # Уменьшите значение "temperature" на 5
-dictionary['temperature'] = 5
+dictionary['temperature'] = int(dictionary['temperature']) - 5
+
 # Выведите на экран весь словарь
 print(dictionary)
 
